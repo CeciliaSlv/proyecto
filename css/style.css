@@ -1,0 +1,72 @@
+.titulos-principales{
+	margin: 0px;/*no va a tener margenes*/
+	background: black;/*El fondo va a ser negro*/
+	color: white;/*color de las letras blanco*/
+}
+h1{
+	margin: 0px;
+	color: #0cf;
+}
+.menu-navegacion a{/*solo aplica a las que tienen etiqueta a*/
+	display: inline-block;/*salida horizontal*/
+	width: 80px;
+	height: 20px;/*pueden ser porcentajes*/
+	padding: 10px ;/*relleno*/
+	margin: 0px 3px 3px 3px;/*arriba abajo izquierda derecha*/
+	background: black;
+	border: none;
+	color:#0cf;
+	text-decoration-style: wavy;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+}
+.menu-navegacion{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+h1,h2{
+	text-align: center;
+}
+li{
+	display: inline;
+}
+/*.footer_menu-navegacion{
+	text-align: center;
+}*/
+li:hover a{/*cuando le pases el cursor por encima se colore de azul(pseudoclase visited)*/
+	background: blue;
+}
+a:visited{/*marca en morado la letra de la pagina en donde estas*/
+	color: purple;
+}
+.Informacion{
+	border: 1px solid black;
+	width: 30%,
+	border-top:20px;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+}
+.footer{
+	padding: 20px;
+	height: 60px;
+	background: gray;
+	bottom: 0px; /*para que este pegado hasta abajo de la pagina*/
+}
+body{
+	margin-top: 0;
+	padding: 0;
+	height: 100%;
+	background: pink;
+}
+/**********Biografia *********/
+table , th, td{
+	border: 1px dotted black;
+	text-align: justify;
+}
+th,td{
+	padding: 20px;
+}
